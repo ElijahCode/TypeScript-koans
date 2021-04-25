@@ -2,7 +2,7 @@
 // Нужно заменить FIXME на тип который вычисляется на освове OrderState
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type FIXME = string[];
+type FIXME = OrderState[];
 
 const orderStates = [
   "initial",
