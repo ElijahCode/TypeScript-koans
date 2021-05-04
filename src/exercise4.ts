@@ -5,10 +5,9 @@
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type FIXME = null | {
-  state: "initial" | "inWork",
-  sum: number,
+  state: "initial" | "inWork";
+  sum: number;
   workedID?: number;
-
 };
 
 type Order =
