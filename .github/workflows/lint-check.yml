@@ -15,6 +15,3 @@ jobs:
       - name: Lint
         run: |
           npm run lint
-      - name: Typing
-        run: |
-          npm run types:check
