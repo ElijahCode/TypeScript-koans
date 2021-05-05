@@ -4,7 +4,7 @@
 import React from "react";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type FIXME = Partial<React.ComponentType> | undefined;
+type FIXME = Partial<React.ComponentType>["defaultProps"] | undefined;
 
 // Hint: infer
 export const getDefaultProps = <T>(component: React.ComponentType<T>): FIXME =>

@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest",
     "lint": "prettier --check . && npx eslint . --ext .js,.ts && npx tsc --noEmit src/**/*.ts",
-    "lint:fix": "prettier --write . && eslint . --ext .js,.ts --fix"
+    "lint:fix": "prettier --write . && eslint . --ext .js,.ts --fix",
+    "types:check": "tsc --noEmit"
   },
   "keywords": [],
   "author": "",

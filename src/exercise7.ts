@@ -4,7 +4,7 @@
 // Из-за ограничений глубины вычислений поддержать все натуральные числа не получится, это нормально
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-type FIXME = any;
+type FIXME = number;
 
 type Equals<A, B> = A extends B ? (B extends A ? "success" : never) : never;
 

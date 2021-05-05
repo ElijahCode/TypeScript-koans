@@ -10,7 +10,7 @@ const orderStates = [
 
 type OrderState = typeof orderStates[number];
 
-type FIXME = OrderState[];
+type FIXME = Exclude<OrderState, "buyingSupplies" | 'producing'>[];
 
 // Hint: type guards
 export const getUserOrderStates = (orderStates1: OrderState[]): FIXME =>
