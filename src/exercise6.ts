@@ -16,4 +16,4 @@ type FIXME = Exclude<OrderState, "buyingSupplies" | "producing">[];
 export const getUserOrderStates = (orderStates1: OrderState[]): FIXME =>
   orderStates1.filter(
     (state) => state !== "buyingSupplies" && state !== "producing"
-  );
+  ) as FIXME;
